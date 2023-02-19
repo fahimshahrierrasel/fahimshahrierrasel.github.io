@@ -1,0 +1,51 @@
+baseURL: "https://fahimshahrierrasel.github.io/"
+languageCode: "en-us"
+title: "Fahim Rasel's Blog"
+theme: PaperMod
+
+
+menu:
+  main:
+    - identifier: categories
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about
+      weight: 20
+
+params:
+  env: production
+  description: Personal Blog of Fahim Shahrier Rasel
+  autoh: Fahim Shahrier Rasel
+  defaultTheme: dark
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  profileMode:
+    enabled: true
+    title: Hi 👋, I am Fahim Shahrier Rasel
+    imageUrl: "https://avatars.githubusercontent.com/u/16564704"
+    imageTitle: Fahim Shahrier Rasel
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+        - name: Posts
+          url: posts/
+        - name: About
+          url: about
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: "I am Fahim Shahrier Rasel. Welcome to my personal blog"
+
+  socialIcons:
+      - name: github
+        url: "https://github.com/fahimshahrierrasel"
+      - name: linkedin
+        url: "http://www.linkedin.com/in/fahimshahrierrasel"
